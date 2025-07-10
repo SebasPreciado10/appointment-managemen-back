@@ -1,0 +1,80 @@
+[
+    {
+      "model": "core.supplier",
+      "pk": "8ecf1dc3-c879-4bb6-90ff-29c03acb6c07",
+      "fields": {
+        "name": "Proveedor A"
+      }
+    },
+    {
+      "model": "core.supplier",
+      "pk": "537387af-9e90-42d2-8094-d83f262e1878",
+      "fields": {
+        "name": "Proveedor B"
+      }
+    },
+    {
+      "model": "core.supplier",
+      "pk": "b91d1c48-43f3-48d5-b3dc-13594609cb19",
+      "fields": {
+        "name": "Proveedor C"
+      }
+    },
+    {
+      "model": "core.productsubline",
+      "pk": "89eb59d2-bd16-4ec2-b593-95e73e5e15e5",
+      "fields": {
+        "name": "Camisetas"
+      }
+    },
+    {
+      "model": "core.productsubline",
+      "pk": "bfb63b40-0f5c-4b04-b308-594fb10fcd6d",
+      "fields": {
+        "name": "Pantalones"
+      }
+    },
+    {
+      "model": "core.productsubline",
+      "pk": "bb60e5ed-69f7-45ff-bdd0-cd355b18828b",
+      "fields": {
+        "name": "Zapatos"
+      }
+    },
+    {
+      "model": "core.productsubline",
+      "pk": "f5743691-9960-47cb-aba0-cc2c6835f1eb",
+      "fields": {
+        "name": "Accesorios"
+      }
+    },
+    {
+      "model": "core.status",
+      "pk": "f0939cf4-e9ae-4de3-b389-31c7b1b8ef68",
+      "fields": {
+        "name": "Programada"
+      }
+    },
+    {
+      "model": "core.status",
+      "pk": "c800bf5f-38a5-40fd-8bd9-e1c2133402d5",
+      "fields": {
+        "name": "En proceso"
+      }
+    },
+    {
+      "model": "core.status",
+      "pk": "c5d6e199-176a-4a9c-9b1c-f0bb340debc0",
+      "fields": {
+        "name": "Entregada"
+      }
+    },
+    {
+      "model": "core.status",
+      "pk": "d8027c99-2c6c-41d0-a74b-fd446196cf71",
+      "fields": {
+        "name": "Cancelada"
+      }
+    }
+  ]
+  
