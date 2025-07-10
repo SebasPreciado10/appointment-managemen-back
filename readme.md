@@ -3,6 +3,7 @@
 Proyecto Django REST API para la gestión de citas de entrega, proveedores y reportes de tiempo promedio. Incluye autenticación, documentación interactiva y análisis de datos.
 
 ## Estructura del Proyecto
+```
 core/
     │
     ├── models/               # Modelos de base de datos
@@ -12,12 +13,17 @@ core/
     ├── exceptions/           # Excepciones personalizadas
     ├── routers/              # Rutas por módulo
     ├── migrations/           # Archivos de migración
+```
 
 
 ## 📖 Documentación
 - [Documentación de la API](http://127.0.0.1:8000/docs/)
 
 ---
+
+## Esquema UML
+![Imagen de WhatsApp 2025-07-10 a las 10 40 41_b2dc7a59](https://github.com/user-attachments/assets/5d4a8a33-ebb3-42ae-a4b4-cdf8c43690c6)
+
 
 ## 🚀 Requisitos
 
@@ -52,14 +58,16 @@ pip install -r requirements.txt
 ### 4. Editar el archivo `.env`
 Crea un archivo `.env` en la raíz del proyecto y configura las variables de entorno necesarias:
 
+### Tener en cuenta que se debe crear la base de datos(Postgres) antes de correr las migracion y agregarlas en tu .Env
+
 ```env
 DEBUG=True
 SECRET_KEY='django-insecure-(i%2^%$o(ng^zm@ctq0hi_i-8cp$xb#!^5t@#x=zpmk$)e-5i^'
-DB_NAME=sgc_db
-DB_USER=lilo
-DB_PASSWORD=sinverguenza
-DB_HOST=localhost
-DB_PORT=5432
+DB_NAME=****
+DB_USER=***
+DB_PASSWORD=******
+DB_HOST=*****
+DB_PORT=****
 ```
 
 ### 5. Migraciones de la base de datos
